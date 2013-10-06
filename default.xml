@@ -8,19 +8,14 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="olibc/build" >
-    <copyfile src="core/toplevel-Makefile" dest="Makefile" />
+  <project path="build" name="nds32/build" >
+    <copyfile src="Makefile" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="olibc/olibc" />
-  <project path="device" name="olibc/device" />
-
-  <project path="external/gtest" name="olibc/gtest" />
-  <project path="external/kconfig" name="olibc/kconfig" />
-  <project path="external/safe-iop" name="olibc/safe-iop" />
-  <project path="external/stlport" name="olibc/stlport" />
-  <project path="external/zlib" name="olibc/zlib" />
-
-  <project path="prebuilts/gcc" name="olibc/prebuilt-gnu-toolchains" />
+  <project path="newlib" name="nds32/newlib" />
+  <project path="gcc" name="nds32/gcc" />
+  <project path="gdb" name="nds32/gdb" />
+  <project path="binutils" name="nds32/binutils" />
+  <project path="kconfig" name="nds32/kconfig" />
 
 </manifest>

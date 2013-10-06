@@ -1,4 +1,4 @@
-olibc - Another C library optimized for embdded Linux.
+nds32 toolchain
 
 Downloading the source tree
 ---------------------------
@@ -24,13 +24,13 @@ After installing Repo, set up your client to access the android source repositor
 
 * Create an empty directory to hold your working files. Give it any name you like:
   ```
-  $ mkdir -p workspace-olibc
-  $ cd workspace-olibc
+  $ mkdir -p nds32-toolchain
+  $ cd nds32-toolchain
   ```
 
 * Run repo init to bring down the latest version of Repo with all its most recent bug fixes:
   ```
-  $ repo init -u https://github.com/olibc/manifest.git
+  $ repo init -u https://github.com/nds32/manifest.git
   ```
 
 * To pull down files to your working directory from the repositories as specified in the default manifest, run
