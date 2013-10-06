@@ -5,17 +5,17 @@
 	  fetch=".." />
   <default revision="master"
            remote="github"
-           sync-c="true"
-           sync-j="4" />
+           sync-c="false"
+           sync-j="1" />
 
   <project path="build" name="nds32/build" >
     <copyfile src="Makefile" dest="Makefile" />
   </project>
 
   <project path="newlib" name="nds32/newlib" />
-  <project path="gcc" name="nds32/gcc" />
+  <project path="gcc" name="nds32/gcc" revision="refs/heads/nds-master" />
   <project path="gdb" name="nds32/gdb" />
-  <project path="binutils" name="nds32/binutils" />
+  <project path="binutils" name="nds32/binutils" revision="refs/heads/nds-master" />
   <project path="kconfig" name="nds32/kconfig" />
 
 </manifest>
