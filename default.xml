@@ -14,9 +14,9 @@
 
   <project path="newlib" name="nds32/newlib" />
   <project path="host-tools" name="nds32/host-tools" />
-  <project path="gcc" name="nds32/gcc" revision="refs/heads/nds-master" />
+  <project path="gcc" name="nds32/gcc" />
   <project path="gdb" name="nds32/gdb" />
-  <project path="binutils" name="nds32/binutils" revision="refs/heads/nds-master" />
+  <project path="binutils" name="nds32/binutils" />
   <project path="kconfig" name="nds32/kconfig" />
 
 </manifest>
